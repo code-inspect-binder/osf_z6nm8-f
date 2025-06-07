@@ -1,0 +1,48 @@
+﻿Data from JBT and ECT in dataset: ,"""	JBTxECT_id.csv"" and ""JBTxECT_day.csv """
+,
+Entry,Explanation
+id,individual identification number of the mouse
+batch,batch in which the mouse was tested
+cage,cage in which the mouse was housed (individuals nested in cages)
+cjb_type,type of JBT paradigm in which mice participated: touchscreen (ts) or tunnel
+cjb_side_big_reward,"location of the large reward in the JBT training: right (positive cue: right side, negative cue: left side) or left  (positive cue: left side, negative cue: right side)"
+rat_bedding,source of the rat bedding for the predator chamber: our (internal) or external
+ect_side_dangerous,location of the predator chamber and large reward in the ECT: left or right
+treatment,treatment group: control or enrichment removal
+ect_traning_duration,number of training sessions for the ECT [days]
+cjb_training_duration,number of training sessions for the JBT [days]
+birth_apx,approximate date of birth based on age in weeks provided by the commercial breeder [dd/mm/yyyy]
+cjb_test_start,date when the first JBT session was performed (first test day) [dd/mm/yyyy]
+ect_traning_start,date of the first training day for the JBT [dd/mm/yyyy]
+ect_date,date when the ECT session was performed [dd/mm/yyyy]
+ect_session,"ECT session on which the choice score was based: 1(st), 2(nd), or 3(rd)"
+count_big_reward,number of trials in which mice obtained the large reward (and passed through the predator chamber)
+choice_score,main output measure from ECT
+cjb_test,did mice participate in the JBT and in which 
+M,optimism score for the middle ambiguous cue
+NP,optimism score for the near positive ambiguous cue
+NN,optimism score for the near negative ambiguous cue
+P,(optimism) score for the positive reference cue
+N,(optimism) score for the negative reference cue
+weight_deviation,deviation of body weight on the ECT testing day from average body weight in the ECT phase 
+,
+,
+Data from JBT in dataset:,"""JBT_all.csv"""
+,
+Entry,Explanation
+id,individual identification number of the mouse
+cjb_test,did mice participate in the JBT and in which paradigm
+cue,"cue that optimism score refers to: P = “positive”, N = “negative” cue, M = “middle”, NN = “near negative”, and NP = “near positive” cue"
+opt_score,optimism score = main output measure from the JBT
+,
+,
+,
+Data from ECT  in dataset:,"""ECT_chambers.csv"""
+,
+Entry,Explanation
+id,individual identification number of the mouse
+chamber,chamber in which the behavioural measure was scored
+retraction,relative frequency of retractions upon entering the cue chambers per entry to connecting tunnel per trial = (N retractions / N tunnel entries)/ N of trials
+entries,frequency of entries into the chamber that did not result in a reward choice per trial = (N entries - N rewards)/ N trials
+duration,time spent in the chamber per entry per trial  = (time in the chamber [s] / N of entries) / N of trials
+digging,relative frequency of digging in the chamber per entry into the chamber per trial = (N digging / N entries chamber)/ N of trials
